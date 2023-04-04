@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#top-sec{
+    height: 200px;
+}
+body{
+    direction: rtl;
+    font-family: 'Tahoma';
+    background-color: #e7e7e7;
+}
+#top-nav{
+    background-color: black;
+}
+#top-nav li{
+    position: relative;
+}
+#top-nav > ul > li{
+    display: inline-block;
+}
+#top-nav > ul > li > a{
+    display: inline-block;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+#top-nav > ul > li:hover > a{
+    background-color: gray;
+}
+#top-nav .sub-menu{
+    position: absolute;
+    display: none;
+}
+#top-nav .sub-menu > li{
+    border: 1px solid gainsboro;
+}
+#top-nav .sub-menu > li > a{
+    width: 200px;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: white;
+    display: block;
+}
+#top-nav li:hover > .sub-menu{
+    display: block;
+}
+#top-nav .sub-menu > li:hover > a{
+    background-color: #e7e7e7;
+}
+.imgtop{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    left: 492px;
+    top: 0px;
+ 
+}
+#top-nav .mega-menu{
+    position: absolute;
+    width: 200px;
+    background-color: wheat;
+    line-height: 40px;
+    display: none;
+}
+#top-nav li:hover > .mega-menu{
+    display: block;
+}
+.imgyoutube{
+    width: 30px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
